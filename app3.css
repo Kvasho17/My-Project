@@ -1,0 +1,259 @@
+.pg {
+  background-image: url(bgimg4.png);
+  min-height: 1024px;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link {
+  color: white;
+  white-space: nowrap;
+  padding-left: 22.5px !important;
+  padding-right: 22.5px !important;
+}
+
+.svg {
+  margin-left: 42px;
+  padding-top: 4px;
+}
+
+.svg1 {
+  margin-left: 29px;
+  padding-top: 4px;
+}
+
+.btn {
+  border-radius: 0;
+  margin-left: 26px;
+  width: 150px;
+  height: 52px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar li {
+  margin-top: 19px;
+}
+.navbar .navbar-brand {
+  margin-top: 19px;
+}
+.navbar .nav-link:hover {
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-top-style: hidden;
+  border-bottom-style: solid;
+  border: 0px 0px 0px 2px;
+}
+
+.subdivi {
+  color: white;
+  text-align: center;
+  margin-top: 265px;
+}
+
+.navbar-toggler img {
+  width: 40px;
+  min-height: 40px;
+}
+
+.inputi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.inputi input {
+  width: 507px;
+}
+.inputi .mesame {
+  height: 180px;
+}
+
+.btn2 {
+  background-color: #5604AD;
+  border: #5604AD;
+  width: 119px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.footi {
+  min-height: 420px;
+  background-color: #090A26;
+}
+.footi .infoebi {
+  margin-left: 120px;
+  margin-top: 120px;
+  max-width: 391px;
+  min-height: 173px;
+  color: white;
+}
+
+.iconebi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infoebi2 {
+  margin-top: 32px;
+}
+
+.footi2 {
+  margin-top: 121px;
+  min-height: 77px;
+  display: flex;
+}
+.footi2 p {
+  color: white;
+  margin-left: 100px;
+  padding-top: 23px;
+}
+.footi2 .linkebi {
+  margin-left: 912px;
+}
+.footi2 a {
+  text-decoration: none;
+  color: white;
+  margin-left: 50px;
+}
+
+@media (max-width: 504px) {
+  .footi2 {
+    display: none;
+  }
+}
+@media (max-width: 1710px) {
+  .footi2 .linkebi {
+    margin: auto;
+  }
+}
+@media (max-width: 1502px) {
+  .ulebididi {
+    margin-left: 400px !important;
+  }
+  .ulebi {
+    margin-left: 100px !important;
+  }
+}
+@media (max-width: 1055px) {
+  .ulebididi {
+    display: none !important;
+  }
+  .infoebi {
+    margin-left: 0 !important;
+    margin: auto !important;
+  }
+}
+.ulebididi {
+  display: flex;
+  position: absolute;
+  margin-left: 669px;
+  line-height: 40px;
+}
+.ulebididi ul li {
+  list-style-type: none;
+}
+.ulebididi ul li a {
+  text-decoration: none;
+  color: white;
+}
+.ulebididi .ulebi {
+  margin-left: 160px;
+}
+
+.navbar-toggler img {
+  width: 40px;
+  min-height: 40px;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1220px) {
+  .nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .collapse {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1120px) {
+  .nav-link {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .page1 .btn {
+    border-radius: 0;
+    margin-left: 16px;
+    width: 100px;
+    height: 52px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1080px) {
+  .btn {
+    width: 100px;
+  }
+}
+@media (max-width: 1020px) {
+  .nav-link {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .svg {
+    margin-left: 12px;
+    padding-top: 4px;
+  }
+  .svg1 {
+    margin-left: 19px !important;
+    padding-top: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .txtdiv {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 520px) {
+  .inputi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .inputi input {
+    width: 300px;
+  }
+  .inputi .mesame {
+    height: 180px;
+  }
+}/*# sourceMappingURL=app3.css.map */
